@@ -6,8 +6,8 @@ class HomePageView(TemplateView):
     template_name = 'core/index.html'
 
     dict_context = {
-        'title': 'Inicio',
-        'message': 'Bienvenido a mi sitio web'
+        'title': '',
+        'message': ''
     }
 
     def get(self, request, *args, **kwargs):
